@@ -2,16 +2,16 @@ module.exports = {
     secret: '1234',
         tourdd: {
         host: 'localhost',
-        user: 'root',
+        user: 'user',
         password: 'password',
         port: 3306,
-        database: 'lpru_conference',
+        database: 'databasename',
     },tourcoth:{
-        host: 'localhost',
+        host: '%user%',
         user: 'root',
         password: 'password',
         port: 3306,
-        database: 'lpru_conference',
+        database: 'databasename',
         multipleStatements: true
     },
     emailOption:{
